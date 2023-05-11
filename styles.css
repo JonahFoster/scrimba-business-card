@@ -17,7 +17,17 @@ body {
     text-align: center;
     background: #606c38;
     color: #fefae0;
-    border-bottom: 12px solid #283618;
+    border-bottom: 10px solid #283618;
+}
+
+.back {
+    border-top: 10px solid #283618;
+    border-bottom: 0;
+    height: 143px;
+}
+
+.back-text {
+    padding: 4px;
 }
 
 .card-text:hover {
@@ -25,6 +35,6 @@ body {
     font-style: bold;
 }
 
-.border-blue {
-    border: 1px dotted blue;
+a {
+    color: #582f0e;
 }
